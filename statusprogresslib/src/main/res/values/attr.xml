@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StatusProgressView">
+        <!--绘制的文字-->
+        <attr name="spv_progress_text" format="reference"/>
+        <!--文字大小-->
+        <attr name="spv_progress_text_size" format="dimension"/>
+        <!--文字选中颜色-->
+        <attr name="spv_progress_text_color" format="color"/>
+        <!--文字未选中颜色-->
+        <attr name="spv_progress_text_default_color" format="color"/>
+        <!--进度条颜色-->
+        <attr name="spv_progress_color" format="color"/>
+        <!--进度条的底色-->
+        <attr name="spv_progress_default_color" format="color"/>
+        <!--进度条的高度-->
+        <attr name="spv_progress_height" format="dimension"/>
+        <!--文字距离图片的距离-->
+        <attr name="spv_progress_text_margin_top" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>
