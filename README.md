@@ -70,9 +70,8 @@
      */
     private var textArray = arrayOf("第一步", "第二步", "第三步", "第四步", "提交")
 
-	
-  	 statusView.setProgressDrawableAndText(unSelectDrawable, selectDrawable, textArray)
-    
+     //设置图片及文字
+     statusView.setProgressDrawableAndText(unSelectDrawable, selectDrawable, textArray)
     //调用setProgress 才会去重绘界面
      statusView.setProgress(StatusProgressView.STEP_START)
 ```
